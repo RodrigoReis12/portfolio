@@ -1,0 +1,20 @@
+.contact-bg {
+    background: var(--color-4);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

@@ -1,0 +1,140 @@
+.project-bg {
+    background: var(--color-3);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.project-bg h1 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 5.3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.project-grid {
+    max-width: 800px;
+    padding: 20px;
+    background: #D4F0FF;
+    border: 1px solid #f0f0f0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+.project-info h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+.project-info img {
+    width: 80%;
+    object-fit: cover;
+}
+
+.project-tech {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.project-tech h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.project-tech div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.project-tech span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.project-img h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 600px) {
+    .project-bg {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .project {
+        padding-top: 50px;
+    }
+    .project-bg h1 {
+        font-size: 4rem;
+    }
+   
+    .project-info h2 {
+        font-size: 1.1rem;
+    }
+
+    .project-info p {
+        font-size: 0.9rem;
+    }
+
+    .project-tech h3 {
+        font-size: 1.1rem;
+    }
+
+    .project-tech span {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .project-bg h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .project-bg h1 {
+        font-size: 2rem;
+    }
+   
+    .project-info h2 {
+        font-size: 1rem;
+    }
+
+    .project-info p {
+        font-size: 0.7rem;
+    }
+
+    .project-tech h3 {
+        font-size: 1rem;
+    }
+
+    .project-tech span {
+        font-size: 0.6rem;
+    }
+}

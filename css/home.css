@@ -1,0 +1,134 @@
+.home-bg {
+    background: var(--color-1);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.home-itens {
+    align-self: center;
+}
+
+.home-image img{ 
+    width: 100%;
+    height: 100%;
+}
+
+.home-itens h1, .home-itens span {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 4.3rem;
+    position: relative;
+}
+
+.home-itens h1::before {
+    content: "";
+    display: inline-block;
+    width: 62px;
+    height: 270px;
+    left: -100px;
+    top: -94px;
+    position: absolute;
+    background: url(../images/DetalheL.svg) no-repeat;
+}
+
+.home-itens span::before {
+    content: "";
+    display: inline-block;
+    width: 62px;
+    height: 270px;
+    left: -100px;
+    top: 100px;
+    position: absolute;
+    background: url(../images/DetalheL.svg) no-repeat;
+}
+
+.home-itens h2 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 2.3rem;
+}
+
+.home-itens p {
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    max-width: 50ch;
+}
+
+@media (max-width: 955px) {
+    .home-itens h1, .home-itens span {
+        font-size: 4rem;
+    }
+
+    .home-itens h2 {
+        font-size: 2.1rem;
+    }
+
+    .home-itens p {
+        font-size: 0.8rem;
+    }
+
+    .home-image img { 
+        width: 300px;
+    }
+}
+
+@media (max-width: 812px) {
+    .home {
+        grid-template-columns: 1fr;
+    }
+
+    .home-itens h1, .home-itens span {
+        font-size: 4.3rem;
+    }
+
+    .home-itens h2 {
+        font-size: 2.3rem;
+    }
+    
+    .home-itens p {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 1.1rem;
+    }
+
+    .home-image img { 
+        display: none;
+    }
+}
+
+@media (max-width: 553px) {
+    .home-itens h1, .home-itens span {
+        font-size: 4rem;
+    }
+
+    .home-itens h2 {
+        font-size: 2rem;
+    }
+    
+    .home-itens p {
+        font-size: 0.9rem;
+    }
+
+    .home-image {
+        text-align: center;
+    }
+}
+
+@media (max-width: 300px) {
+    .home-itens h1, .home-itens span {
+        font-size: 3rem;
+    }
+
+    .home-itens h2 {
+        font-size: 1.5rem;
+    }
+    
+    .home-itens p {
+        font-size: 0.7rem;
+    }
+}

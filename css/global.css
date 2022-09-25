@@ -1,0 +1,18 @@
+:root {
+    --color-1: #FFDBAD;
+    --color-2: #5691B3;
+    --color-3: #C7EBFF;
+    --color-4: #B39268;
+    --black: #000;
+    scroll-behavior: smooth;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
