@@ -18,3 +18,9 @@
     justify-content: center;
     gap: 10px;
 }
+
+@media (max-width: 450px) {
+    .contact {
+        font-size: 0.9rem;
+    }
+}

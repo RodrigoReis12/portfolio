@@ -101,6 +101,10 @@
     .project-info p {
         font-size: 0.9rem;
     }
+    
+    .project-info img {
+        width: 120%;
+    }
 
     .project-tech h3 {
         font-size: 1.1rem;
@@ -109,6 +113,7 @@
     .project-tech span {
         font-size: 0.7rem;
     }
+
 }
 
 @media (max-width: 450px) {
