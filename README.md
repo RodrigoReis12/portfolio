@@ -1,4 +1,4 @@
-![Screenshot_1](https://user-images.githubusercontent.com/49238491/211106067-c3f784d8-b035-41b3-99a8-52baf48669a2.png)
+![Portfolio](https://user-images.githubusercontent.com/49238491/211107074-d69e897f-be9f-40e1-a7ea-66e9acc1a7c8.png)
 
 # Portfolio
 
